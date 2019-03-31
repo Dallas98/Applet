@@ -8,6 +8,9 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import random
+import keyword
+
+print(keyword.kwlist)
 
 
 def has_duplicates(t):
