@@ -9,6 +9,19 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 import random
 import keyword
+import numpy
+import math
+
+help(math.sqrt)
+
+x = numpy.ones(3)
+m = numpy.eye(3) * 3
+m[0, 2] = 5
+m[2, 0] = 3
+print(x @ m)
+
+a = 3.6674
+print('%7.3f' % a)
 
 print(keyword.kwlist)
 
