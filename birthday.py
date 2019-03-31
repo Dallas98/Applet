@@ -12,6 +12,10 @@ import keyword
 
 print(keyword.kwlist)
 
+a = 3 + 2j
+b = 3 + 6j
+print(a + b)
+
 
 def has_duplicates(t):
     """Returns True if any element appears more than once in (t),
