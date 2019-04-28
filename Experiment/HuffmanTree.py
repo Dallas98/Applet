@@ -1,3 +1,5 @@
+# Huffman编码
+
 # 树节点类构建
 class TreeNode(object):
     def __init__(self, data):
@@ -104,11 +106,11 @@ def TransDecode(StringCode):
 
 
 # 测试
-string = "AAGGDCCCDDDGFBBBFFGGDDDDGGGEFFDDCCCCDDFGAAA"
+string = "DRSQWRWESDRQWARESRQSFDRWAEWQDSEFARWESRQDRQAERQDSAEWSQERADSQ"
 t = NodeQueue(fre_char(string))
 tree = creat_huffman_tree(t)
 HuffmanCodeDic(tree, '')
-print(codeDic1, codeDic2)
+print(codeDic1, '\n', codeDic2)
 a = TransEncode(string)
 print(a)
 aa = TransDecode(a)
