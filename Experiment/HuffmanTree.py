@@ -106,7 +106,7 @@ def TransDecode(StringCode):
 
 
 # 测试
-string = "DRSQWRWESDRQWARESRQSFDRWAEWQDSEFARWESRQDRQAERQDSAEWSQERADSQ"
+string = input()
 t = NodeQueue(fre_char(string))
 tree = creat_huffman_tree(t)
 HuffmanCodeDic(tree, '')
@@ -114,6 +114,5 @@ print(codeDic1, '\n', codeDic2)
 a = TransEncode(string)
 print(a)
 aa = TransDecode(a)
-# aa=TransDecode('001010100000111010100100101010010100101010010010010001110010100100100100110100010010100110')
 print(aa)
 print(string == aa)
