@@ -2,7 +2,7 @@ from wxpy import *
 
 bot = Bot(cache_path=True)
 
-my_friend = ensure_one(bot.search('人生如梦'))
+my_friend = ensure_one(bot.search('相思赋予谁'))
 
 turing = Tuling(api_key='7e239ea4ae684326a95e9cce4f99bd56')
 
