@@ -1,6 +1,6 @@
 # Kruscal 算法
 
-from pylab import *
+from numpy import *
 
 INFINITY = 65535  # 代表无穷大
 vexs = array([[0, 10, 7, INFINITY, INFINITY, 11, INFINITY, INFINITY, INFINITY],  # 邻接矩阵
