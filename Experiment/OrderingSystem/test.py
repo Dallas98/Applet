@@ -152,6 +152,7 @@ def menu():
     Menu.mainloop()
 
 
+
 root = tkinter.Tk()
 root.title('欢迎')
 root['height'] = 400

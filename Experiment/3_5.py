@@ -1,3 +1,4 @@
+# Ackermann 函数
 def ack(m, n):
     if m == 0:
         return n + 1
@@ -7,4 +8,4 @@ def ack(m, n):
         return ack(m - 1, ack(m, n - 1))
 
 
-print(ack(0, 0))
+

@@ -9,10 +9,10 @@ video_capture = cv2.VideoCapture(0)  # 打开摄像头
 my_image = face_recognition.load_image_file("1.jpg")
 my_face_encoding = face_recognition.face_encodings(my_image)[0]
 
-first_image = face_recognition.load_image_file("2.jpg")
+first_image = face_recognition.load_image_file("3.jpg")
 first_face_encoding = face_recognition.face_encodings(first_image)[0]
 
-second_image = face_recognition.load_image_file("3.jpg")
+second_image = face_recognition.load_image_file("2.jpg")
 second_face_encoding = face_recognition.face_encodings(second_image)[0]
 
 # 创建一个人脸编码/已知人脸名字的list
@@ -24,8 +24,8 @@ known_face_encodings = [
 
 known_face_names = [
     "Dallas",
-    "2",
-    "DuLixia"
+    "Du",
+    "3"
 ]
 
 face_locations = []
