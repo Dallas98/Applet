@@ -49,7 +49,7 @@ while True:
 
         face_names = []
         for face_encoding in face_encodings:
-            matches = face_recognition.compare_faces(known_face_encodings, face_encoding, tolerance=0.45)
+            matches = face_recognition.compare_faces(known_face_encodings, face_encoding, tolerance=0.20)
             # 人脸对比函数  对比那128个向量  返回一个True/False的列表，第一个参数为已知的编码过的人脸列表，第二个是未知的编码过的人脸，第三个tolerance=0.6人脸对比的严格度，越低越严格
             name = "Unknown"
             # 如果在已知的编码中找到了匹配，就使用第一个
